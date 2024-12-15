@@ -64,7 +64,7 @@ export default function HomePage() {
   return (
     <div className={style.homePage}>
       <div>
-        <img className={style.banner} src={banner} alt="entraide" />
+        <img className={style.banner} src={banner} alt="bannière_entraide" />
       </div>
 
       <h2 className={style.homePageHelpersTitle}>Annonces d'entraide</h2>
