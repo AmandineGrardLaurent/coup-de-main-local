@@ -1,4 +1,4 @@
-import { ServiceType } from "../../lib/definitions";
+import type { ServiceType } from "../../lib/definitions";
 import style from "./serviceCard.module.css";
 
 export default function ServiceCard({ service }: { service: ServiceType }) {

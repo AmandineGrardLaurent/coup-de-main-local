@@ -1,4 +1,4 @@
-import { HelperType } from "../../lib/definitions";
+import type { HelperType } from "../../lib/definitions";
 import style from "./helperCard.module.css";
 
 export default function HelperCard({ helper }: { helper: HelperType }) {

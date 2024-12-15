@@ -1,6 +1,6 @@
 import { useLoaderData } from "react-router-dom";
+import type { ServiceType } from "../../lib/definitions";
 import style from "./serviceDetailsPage.module.css";
-import { ServiceType } from "../../lib/definitions";
 
 export default function ServiceDetailsPage() {
   const data: ServiceType = useLoaderData() as ServiceType;

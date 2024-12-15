@@ -1,9 +1,9 @@
 import { useState } from "react";
+import { Link, useLoaderData } from "react-router-dom";
 import HelperCard from "../../components/helperCard/HelperCard";
 import HelpersFilter from "../../components/helpersFilter/HelpersFilter";
+import type { HelperType } from "../../lib/definitions";
 import style from "./helpersPage.module.css";
-import { Link, useLoaderData } from "react-router-dom";
-import { HelperType } from "../../lib/definitions";
 
 export default function HelpersPage() {
   const datas: HelperType[] = useLoaderData() as HelperType[];

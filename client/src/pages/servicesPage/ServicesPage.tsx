@@ -1,9 +1,9 @@
-import { Link, useLoaderData } from "react-router-dom";
-import ServicesFilter from "../../components/servicesFilter/ServicesFilter";
-import style from "./servicesPage.module.css";
 import { useState } from "react";
+import { Link, useLoaderData } from "react-router-dom";
 import ServiceCard from "../../components/serviceCard/ServiceCard";
-import { ServiceType } from "../../lib/definitions";
+import ServicesFilter from "../../components/servicesFilter/ServicesFilter";
+import type { ServiceType } from "../../lib/definitions";
+import style from "./servicesPage.module.css";
 
 export default function ServicesPage() {
   const datas: ServiceType[] = useLoaderData() as ServiceType[];

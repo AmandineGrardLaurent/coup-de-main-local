@@ -1,4 +1,4 @@
-import { FilterServiceType } from "../../lib/definitions";
+import type { FilterServiceType } from "../../lib/definitions";
 import style from "./servicesFilter.module.css";
 
 export default function ServicesFilter({

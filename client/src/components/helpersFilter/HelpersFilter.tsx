@@ -1,4 +1,4 @@
-import { FilterHelperType } from "../../lib/definitions";
+import type { FilterHelperType } from "../../lib/definitions";
 import style from "./helpersFilter.module.css";
 
 export default function HelpersFilter({

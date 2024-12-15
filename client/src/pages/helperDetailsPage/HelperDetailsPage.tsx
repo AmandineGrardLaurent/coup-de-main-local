@@ -1,6 +1,6 @@
 import { useLoaderData } from "react-router-dom";
+import type { HelperType } from "../../lib/definitions";
 import style from "./helperDetailsPage.module.css";
-import { HelperType } from "../../lib/definitions";
 
 export default function HelperDetailsPage() {
   const data: HelperType = useLoaderData() as HelperType;
