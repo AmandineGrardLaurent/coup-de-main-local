@@ -1,7 +1,12 @@
 import style from "./homePage.module.css";
 import banner from "../../assets/images/entraide-banner.jpg";
+import { useLoaderData } from "react-router-dom";
+import { HelperType } from "../../lib/definitions";
+import HelperCard from "../../components/helperCard/HelperCard";
 
 export default function HomePage() {
+  const helper: HelperType[] = useLoaderData() as HelperType[];
+
   return (
     <div className={style.homePage}>
       <div>
@@ -17,11 +22,9 @@ export default function HomePage() {
         <div>
           <h2>Les échanges de services dans le quartier</h2>
         </div>
-        <div className={style.cards}></div>
-        <div>
-          <h2>Les services dans le quartier</h2>
+        <div className={style.cards}>
+          <HelperCard helper={helper[1]} />
         </div>
-        <div className={style.cards}></div>
       </section>
     </div>
   );
