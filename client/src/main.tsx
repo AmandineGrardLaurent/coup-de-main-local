@@ -31,14 +31,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
-        loader: async () => {
-          const response = await fetch("http://localhost:3310/api/");
-          const data = await response.json();
-
-          return {
-            helpers: data.helpers || [],
-          };
-        },
+        loader: () => fetch("http://localhost:3310/api/helpers"),
       },
       {
         path: "/services",

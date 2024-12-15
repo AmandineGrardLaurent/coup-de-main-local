@@ -5,9 +5,7 @@ import { Link, useLoaderData } from "react-router-dom";
 import HelperCard from "../../components/helperCard/HelperCard";
 
 export default function HomePage() {
-  const { helpers } = useLoaderData() as {
-    helpers: HelperType[];
-  };
+  const helpers = useLoaderData() as HelperType[];
 
   if (!helpers) {
     return <div>No data...</div>;
