@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kavoon&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  /* bg */
+  --bg-navbar: #98d3e2;
+  --bg-ligth-primary: #f7f7f7;
+  --bg-light-secondary: #fff;
+  --bg-footer: #d0d0d0;
+
+  /* text */
+  --text-primary: #333;
+  --text-secondary: #fff;
+  --title: #413e3e;
+
+  /* button */
+  --button-primary: #f8ad97;
+  --button-secondary: #f9d1c2;
+
+  /* shadow */
+  --shadow-primary: rgba(131, 132, 132, 0.2);
+  --shadow-secondary: rgba(44, 44, 44, 0.2);
+
+  /* select */
+  --select-primary: #d0d0d0;
+  --select-secondary: #f8ad97;
+
+  /* tag */
+  --tag-category: #a8e6cf;
+  --tag-border-category: #65b99a;
+  --tag-type: #e1c6e7;
+  --tag-border-type: #ab79b8;
+  --tag-echange: #98d3e2;
+  --tag-border-echange: #65a4b4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: var(--title);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-ligth-primary);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}

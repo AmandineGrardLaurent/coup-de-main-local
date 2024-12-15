@@ -1,0 +1,25 @@
+.container {
+  padding: 1rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.categoryContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.categoryCardContainer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.link {
+  text-decoration: none;
+}

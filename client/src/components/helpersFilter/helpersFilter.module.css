@@ -1,0 +1,48 @@
+.filterHelpersContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.filterHelpersContainer .filterHelper {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 3rem;
+}
+
+.filterHelpersContainer .filterHelper > select {
+  width: 99%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--select-primary);
+  font-size: 1rem;
+}
+
+.filterHelpersContainer .filterHelper > select:hover,
+.filterHelpersContainer .filterHelper > select:focus {
+  border: solid 1px var(--select-secondary);
+  outline: none;
+}
+
+.filterHelpersContainer .searchHelpers {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 3rem;
+}
+
+.filterHelpersContainer .searchHelpers input {
+  width: 99%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--select-primary);
+  font-size: 1rem;
+}
+
+.filterHelpersContainer .searchHelpers > input:hover,
+.filterHelpersContainer .searchHelpers > input:focus {
+  border: solid 1px var(--select-secondary);
+  outline: none;
+}
