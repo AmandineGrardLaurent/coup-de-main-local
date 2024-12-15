@@ -5,7 +5,7 @@ import { Link, useLoaderData } from "react-router-dom";
 import HelperCard from "../../components/helperCard/HelperCard";
 
 export default function HomePage() {
-  const helpers: HelperType[] = useLoaderData() as HelperType[];
+  const helper: HelperType[] = useLoaderData() as HelperType[];
 
   return (
     <div className={style.homePage}>
@@ -23,14 +23,14 @@ export default function HomePage() {
           <h2>Les échanges de services dans le quartier</h2>
         </div>
         <div className={style.cards}>
-          <Link to={`/helpers/${helpers[1].id}`} className={style.link}>
-            <HelperCard helper={helpers[1]} />
+          <Link to={`/helpers/${helper[1].id}`} className={style.link}>
+            <HelperCard helper={helper[1]} />
           </Link>
-          <Link to={`/helpers/${helpers[5].id}`} className={style.link}>
-            <HelperCard helper={helpers[5]} />
+          <Link to={`/helpers/${helper[5].id}`} className={style.link}>
+            <HelperCard helper={helper[5]} />
           </Link>
-          <Link to={`/helpers/${helpers[8].id}`} className={style.link}>
-            <HelperCard helper={helpers[8]} />
+          <Link to={`/helpers/${helper[8].id}`} className={style.link}>
+            <HelperCard helper={helper[8]} />
           </Link>
         </div>
       </section>
