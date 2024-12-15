@@ -1,16 +1,15 @@
 import style from "./homePage.module.css";
 import banner from "../../assets/images/entraide-banner.jpg";
-import { HelperType, ServiceType } from "../../lib/definitions";
+import { HelperType } from "../../lib/definitions";
 import { Link, useLoaderData } from "react-router-dom";
 import HelperCard from "../../components/helperCard/HelperCard";
 
 export default function HomePage() {
-  const { services, helpers } = useLoaderData() as {
-    services: ServiceType[];
+  const { helpers } = useLoaderData() as {
     helpers: HelperType[];
   };
 
-  if (!services || !helpers) {
+  if (!helpers) {
     return <div>No data...</div>;
   }
 
