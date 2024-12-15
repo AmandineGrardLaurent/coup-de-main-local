@@ -1,8 +1,9 @@
 import { useLoaderData } from "react-router-dom";
 import style from "./helperDetailsPage.module.css";
+import { HelperType } from "../../lib/definitions";
 
 export default function HelperDetailsPage() {
-  const data: serviceType = useLoaderData() as serviceType;
+  const data: HelperType = useLoaderData() as HelperType;
   return (
     <main className={style.helperDetails}>
       <section>
