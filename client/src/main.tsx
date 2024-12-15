@@ -36,7 +36,6 @@ const router = createBrowserRouter([
           const data = await response.json();
 
           return {
-            // services: data.services || [],
             helpers: data.helpers || [],
           };
         },
