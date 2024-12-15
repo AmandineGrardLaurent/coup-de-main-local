@@ -10,7 +10,7 @@ export default function HomePage() {
   };
 
   if (!helper) {
-    return <div>No data.....</div>;
+    return <div>No data...</div>;
   }
   return (
     <div className={style.homePage}>
