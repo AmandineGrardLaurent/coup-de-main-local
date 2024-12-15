@@ -1,8 +1,8 @@
 import style from "./homePage.module.css";
 import banner from "../../assets/images/entraide-banner.jpg";
 import { HelperType } from "../../lib/definitions";
-import { Link, useLoaderData } from "react-router-dom";
 import HelperCard from "../../components/helperCard/HelperCard";
+import { Link, useLoaderData } from "react-router-dom";
 
 export default function HomePage() {
   const helper: HelperType[] = useLoaderData() as HelperType[];
