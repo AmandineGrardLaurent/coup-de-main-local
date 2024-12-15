@@ -19,7 +19,7 @@ export default function HelperCard({ helper }: { helper: HelperType }) {
 
       <div className={style.helperDetails}>
         <h1 className={style.helperTitle}>
-          {helper.nom} {helper.prenom}
+          {helper.prenom} {helper.nom}
         </h1>
 
         <p>{helper.description}</p>

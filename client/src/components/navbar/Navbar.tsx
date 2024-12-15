@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import style from "./navbar.module.css";
+import logo from "../../assets/images/logo.jpg";
 
 export default function Navbar() {
   return (
     <nav>
       <div className={style.brandContainer}>
         <Link to="/">
-          <img src={""} alt="Logo" />
+          <img src={logo} alt="Logo" className={style.image} />
         </Link>
         <h1>Coup de main local</h1>
       </div>
