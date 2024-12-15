@@ -1,7 +1,6 @@
 import style from "./homePage.module.css";
 import Slider from "react-slick";
 import { Link, useLoaderData } from "react-router-dom";
-import ServiceCard from "../../components/serviceCard/ServiceCard";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import HelperCard from "../../components/helperCard/HelperCard";
