@@ -2,7 +2,7 @@ import style from "./homePage.module.css";
 import banner from "../../assets/images/entraide-banner.jpg";
 import { HelperType } from "../../lib/definitions";
 import { useLoaderData } from "react-router-dom";
-import HelperCard from "../../components/helperCard/HelperCard";
+// import HelperCard from "../../components/helperCard/HelperCard";
 
 export default function HomePage() {
   const { helper } = useLoaderData() as {
@@ -24,9 +24,7 @@ export default function HomePage() {
           collaborative est mise en avant. Retrouvez la liste des services
           locaux et les annonces d'entraides entre particuliers.
         </div>
-        <div>
-          <HelperCard helper={helper[1]} />
-        </div>
+        <div>{/* <HelperCard helper={helper[1]} /> */}</div>
       </section>
     </div>
   );
