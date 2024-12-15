@@ -1,21 +1,22 @@
 import style from "./homePage.module.css";
 // import Slider from "react-slick";
-import { Link, useLoaderData } from "react-router-dom";
+// import { Link, useLoaderData } from "react-router-dom";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
-import HelperCard from "../../components/helperCard/HelperCard";
+// import HelperCard from "../../components/helperCard/HelperCard";
 import banner from "../../assets/images/entraide-banner.jpg";
-import { HelperType, ServiceType } from "../../lib/definitions";
+// import { HelperType, ServiceType } from "../../lib/definitions";
+// import { useLoaderData } from "react-router-dom";
 
 export default function HomePage() {
-  const { services, helpers } = useLoaderData() as {
-    services: ServiceType[];
-    helpers: HelperType[];
-  };
+  // const { services, helpers } = useLoaderData() as {
+  //   services: ServiceType[];
+  //   helpers: HelperType[];
+  // };
 
-  if (!services || !helpers) {
-    return <div>No data...</div>;
-  }
+  // if (!services || !helpers) {
+  //   return <div>No data...</div>;
+  // }
 
   // const isMobile = window.innerWidth < 720;
 
@@ -64,7 +65,7 @@ export default function HomePage() {
   return (
     <div className={style.homePage}>
       <div>
-        <img className={style.banner} src={banner} alt="bannière_entraide" />
+        <img className={style.banner} src={banner} alt="bannière entraide" />
       </div>
 
       <h2 className={style.homePageHelpersTitle}>Annonces d'entraide</h2>
