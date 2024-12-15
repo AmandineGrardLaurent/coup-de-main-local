@@ -34,12 +34,12 @@ export default function HomePage() {
           <Link to={`/helpers/${helper[1].id}`} className={style.link}>
             <HelperCard helper={helper[1]} />
           </Link>
-          <Link to={`/helpers/${helper[5].id}`} className={style.link}>
+          {/* <Link to={`/helpers/${helper[5].id}`} className={style.link}>
             <HelperCard helper={helper[5]} />
           </Link>
           <Link to={`/helpers/${helper[8].id}`} className={style.link}>
             <HelperCard helper={helper[8]} />
-          </Link>
+          </Link> */}
         </div>
         <div>
           <h2>Les services dans le quartier</h2>
@@ -48,12 +48,12 @@ export default function HomePage() {
           <Link to={`/services/${service[1].id}`} className={style.link}>
             <ServiceCard service={service[1]} />
           </Link>
-          <Link to={`/services/${service[5].id}`} className={style.link}>
+          {/* <Link to={`/services/${service[5].id}`} className={style.link}>
             <ServiceCard service={service[5]} />
           </Link>
           <Link to={`/services/${service[10].id}`} className={style.link}>
             <ServiceCard service={service[10]} />
-          </Link>
+          </Link> */}
         </div>
       </section>
     </div>
