@@ -27,3 +27,14 @@
   justify-content: center;
   margin: 2em;
 }
+
+.helperContainer {
+  display: flex;
+  gap: 1em;
+  margin: 2em;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+}
