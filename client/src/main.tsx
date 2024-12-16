@@ -35,7 +35,7 @@ const router = createBrowserRouter([
       {
         path: "/services",
         element: <ServicesPage />,
-        loader: () => fetch("http://localhost:3310/api/services"),
+        loader: () => fetch(`${import.meta.env.VITE_API_URL}/services`),
       },
       {
         path: "/helpers",
