@@ -40,19 +40,19 @@ const router = createBrowserRouter([
       {
         path: "/helpers",
         element: <HelpersPage />,
-        loader: () => fetch("http://localhost:3310/api/helpers"),
+        loader: () => fetch(`${import.meta.env.VITE_API_URL}/helpers`),
       },
       {
         path: "/services/:id",
         element: <ServiceDetailsPage />,
         loader: ({ params }) =>
-          fetch(`http://localhost:3310/api/services/${params.id}`),
+          fetch(`${import.meta.env.VITE_API_URL}/services/${params.id}`),
       },
       {
         path: "/helpers/:id",
         element: <HelperDetailsPage />,
         loader: ({ params }) =>
-          fetch(`http://localhost:3310/api/helpers/${params.id}`),
+          fetch(`${import.meta.env.VITE_API_URL}/helpers/${params.id}`),
       },
     ],
   },
