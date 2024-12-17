@@ -1,8 +1,8 @@
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import banner from "../../assets/images/entraide-banner.jpg";
 import HelperCard from "../../components/helperCard/HelperCard";
+import type { HelperType } from "../../lib/definitions";
 import style from "./homePage.module.css";
-import { HelperType } from "../../lib/definitions";
 
 export default function HomePage() {
   const helper: HelperType[] = useLoaderData() as HelperType[];
@@ -20,9 +20,15 @@ export default function HomePage() {
         </div>
         <h2>Annonces d'entraides</h2>
         <div className={style.helperContainer}>
-          <HelperCard helper={helper[1]} />
-          <HelperCard helper={helper[2]} />
-          <HelperCard helper={helper[5]} />
+          <Link to={`/helpers/${helper[1].id}`} className={style.link}>
+            <HelperCard helper={helper[1]} />
+          </Link>
+          <Link to={`/helpers/${helper[2].id}`} className={style.link}>
+            <HelperCard helper={helper[2]} />
+          </Link>
+          <Link to={`/helpers/${helper[5].id}`} className={style.link}>
+            <HelperCard helper={helper[5]} />
+          </Link>
         </div>
       </section>
     </div>

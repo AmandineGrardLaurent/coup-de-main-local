@@ -537,6 +537,15 @@
       "horaires_ouverture": "Lundi - Samedi : 9h00 - 19h00",
       "categorie": "Commerces alimentaires",
       "image": "https://images.pexels.com/photos/6969266/pexels-photo-6969266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 30,
+      "nom": "La pépinière Chartrons",
+      "adresse": "Immeuble de la pépinière éco-créative Bordeaux Chartrons - 9 rue Darbon - 33000 Bordeaux",
+      "tel": "05 57 85 83 54",
+      "horaires_ouverture": "Lundi - Vendredi : 9h00 - 18h00",
+      "categorie": "Pépinière de Start'up",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.frenchtechbordeaux.com%2Fproject%2Fappel-a-candidature-la-pep-bordeaux-chartrons-2%2F&psig=AOvVaw1j5h0dw8UuJt5Yb1_wBT1v&ust=1734530688660000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODx0L38rooDFQAAAAAdAAAAABAE"
     }
   ]
 }

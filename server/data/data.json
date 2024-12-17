@@ -332,7 +332,7 @@
       "image": "https://www.finance-fair.org/sites/default/files/2024-07/la-banque-postale-new4498.jpg"
     },
     {
-      "id": 7,
+      "id": 30,
       "nom": "BNP Paribas",
       "adresse": "3 Rue de la Vieille Tour, 33000 Bordeaux",
       "tel": "05 57 57 52 50",
@@ -537,6 +537,15 @@
       "horaires_ouverture": "Lundi - Samedi : 9h00 - 19h00",
       "categorie": "Commerces alimentaires",
       "image": "https://images.pexels.com/photos/6969266/pexels-photo-6969266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 7,
+      "nom": "La pépinière Chartrons",
+      "adresse": "Immeuble de la pépinière éco-créative Bordeaux Chartrons - 9 rue Darbon - 33000 Bordeaux",
+      "tel": "05 57 85 83 54",
+      "horaires_ouverture": "Lundi - Vendredi : 9h00 - 18h00",
+      "categorie": "Pépinière de Start'up",
+      "image": "https://www.frenchtechbordeaux.com/wp-content/uploads/2024/07/LOGO-PEP-APP.png"
     }
   ]
 }
