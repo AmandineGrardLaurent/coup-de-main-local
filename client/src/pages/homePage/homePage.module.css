@@ -10,29 +10,44 @@
 }
 
 .text {
-  width: 60%;
+  width: 80%;
   height: auto;
-  font-size: 1em;
+  font-size: 1.25em;
   padding: 1em;
-}
 
+  @media screen and (max-width: 768px) {
+    font-size: 0.75em;
+    text-align: justify;
+    justify-content: center;
+  }
+}
 .container {
   padding: 2em;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    padding: 0.1em;
+  }
 }
 
 .cards {
   display: flex;
   gap: 1em;
   justify-content: center;
-  margin: 2em;
+  margin: 1em;
 }
 
 .helperContainer {
   display: flex;
+
   gap: 1em;
   margin: 2em;
   justify-content: center;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    margin: 0.25em;
+  }
 }
 
 h2 {

@@ -20,15 +20,21 @@ export default function HomePage() {
         </div>
         <h2>Annonces d'entraides</h2>
         <div className={style.helperContainer}>
-          <Link to={`/helpers/${helper[1].id}`} className={style.link}>
-            <HelperCard helper={helper[1]} />
-          </Link>
-          <Link to={`/helpers/${helper[2].id}`} className={style.link}>
-            <HelperCard helper={helper[2]} />
-          </Link>
-          <Link to={`/helpers/${helper[5].id}`} className={style.link}>
-            <HelperCard helper={helper[5]} />
-          </Link>
+          <div className={style.cards}>
+            <Link to={`/helpers/${helper[1].id}`} className={style.link}>
+              <HelperCard helper={helper[1]} />
+            </Link>
+          </div>
+          <div className={style.cards}>
+            <Link to={`/helpers/${helper[2].id}`} className={style.link}>
+              <HelperCard helper={helper[2]} />
+            </Link>
+          </div>
+          <div className={style.cards}>
+            <Link to={`/helpers/${helper[5].id}`} className={style.link}>
+              <HelperCard helper={helper[5]} />
+            </Link>
+          </div>
         </div>
       </section>
     </div>
